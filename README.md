@@ -1,4 +1,4 @@
-# d3dash
+# d3dash - brand-insights-twitter
 
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.4.2.
 
