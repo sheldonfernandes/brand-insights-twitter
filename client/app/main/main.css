@@ -2,16 +2,6 @@
   margin: 20px 0;
 }
 
-#banner {
-  border-bottom: none;
-  margin-top: -20px;
-}
-
-#banner h1 {
-  font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
-}
 
 .hero-unit {
   position: relative;
@@ -24,4 +14,56 @@
 
 .navbar-text {
   margin-left: 15px;
+}
+
+/** Tabs CSS **/
+.tab-header {
+  background-color: #FFF;
+  color: #458FDA;
+  padding: 0 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.active .tab-header {
+  background-color: #458FDA;
+  color: white;
+}
+.tab-subheader {
+  font-size: 12px;
+  padding: 4px 13px 0;
+  color: #8c9ba9;
+}
+.tab-result-summary {
+  padding: 0 13px 5px;
+  font-size: 17px;
+  line-height: 1;
+}
+
+li.dash-tab > a {
+  padding: 0;
+  margin-right: 11px;
+  border-color: #ddd #ddd transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: inherit;
+}
+
+/** Override top nav height **/
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-brand {
+  height: auto;
+  padding: 10px 15px;
+}
+
+.brand {
+  margin-top:5px ;
+  margin-bottom:20px;
+  font-size: 17px;
+  font-weight: bold;
+
 }

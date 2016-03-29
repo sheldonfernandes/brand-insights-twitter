@@ -6,11 +6,12 @@ angular.module('d3dashApp', [
   'ngResource',
   'ngSanitize',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'ui.router.tabs'
 ])
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider
-      .otherwise('/');
+      .otherwise('/overview');
 
     $locationProvider.html5Mode(true);
   });
